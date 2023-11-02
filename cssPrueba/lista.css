@@ -1,3 +1,7 @@
+:root{
+    --background-color: linear-gradient(45deg, #000426, #1f001e);
+ } 
+
 *{
     margin: 0;
     padding: 0;
@@ -6,4 +10,5 @@
 .container{
     display: flex;
     flex-direction: column;
+    background-color: var(--background-color);
 }
