@@ -1,6 +1,8 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
 }
 
 body{
@@ -15,10 +17,61 @@ body{
 }
 
 .container{
-    width: 98%;
-    height: 98%;
-
+    width: 90%;
+    height: 90%;
     border-radius: 25px;
-
     background-color: #121212;
+    padding: 25px;
+}
+
+#searchBar{
+    background-color: #242424;
+    border: 0;
+    border-radius: 500px;
+    color: #fff!important;
+    height: 48px;
+    padding: 6px 36px;
+    text-overflow: ellipsis;
+    width: 17%;
+    height: 5vh;
+}
+
+#searchBar:hover{
+    background-color: #2a2a2a;
+    box-shadow: 0 0 0 1px hsla(0,0%,100%,.2);
+    outline: none;
+}
+
+#searchBar:focus{
+    box-shadow: 0 0 0 2px #fff;
+    outline: none;
+}
+
+h2{
+    margin: 20px 0px;
+}
+
+.explore{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card{
+    width: 155px;
+    height: 155px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.title{
+    padding: 16px;
+}
+
+.img{
+    width: 85px;
+    height: 85px;
+    margin-left: 85px;
+    margin-top: 20px;
+    transform: rotate(25deg);
 }
