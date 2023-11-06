@@ -5,22 +5,21 @@
     color: white;
 }
 
+:root{
+    --background-color: linear-gradient(45deg, #000426, #1f001e);
+}
+
 body{
-    width: 100%;
-    height: 100vh;
-
     display: flex;
-    justify-content: center;
-    align-items: center;
-
-    background-color: black;
+    padding: 20px;
+    background: var(--background-color);
 }
 
 .container{
     width: 90%;
     height: 90%;
     border-radius: 25px;
-    background-color: #121212;
+    background-color: rgb(51, 7, 51);
     padding: 25px;
 }
 
@@ -34,6 +33,7 @@ body{
     text-overflow: ellipsis;
     width: 17%;
     height: 5vh;
+    background: var(--background-color);
 }
 
 #searchBar:hover{
@@ -53,15 +53,17 @@ h2{
 
 .explore{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
 }
 
 .card{
-    width: 155px;
-    height: 155px;
+    width: 175px;
+    height: 175px;
     border-radius: 10px;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .title{
@@ -71,7 +73,17 @@ h2{
 .img{
     width: 85px;
     height: 85px;
-    margin-left: 85px;
-    margin-top: 20px;
+    margin-left: 105px;
+    margin-top: 40px;
     transform: rotate(25deg);
+}
+
+.sidebar{
+    width: 30%;
+    border: none;
+}
+
+.footer{
+    width: 100%;
+    border: none;
 }
