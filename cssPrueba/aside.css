@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+:root{
+    --background-color: linear-gradient(45deg, #000426, #1f001e);
+ } 
+
+.aside{
+    display: flex;
+    position: fixed;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0);
+    height: 100vh;
+    width: 100%;
+}
+
+.menu{
+    margin: auto;
+    display: flex; 
+    flex-direction: column;
+    justify-content:center; 
+    text-align: left;
+    width: 90%;
+    padding: 1px 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: rgb(51, 7, 51);
+}
+
+.menu ul{
+    margin-left: 10px;
+    list-style: none;
+    font-size: 1.3em;
+}
+
+.menu ul li{
+    margin:30px 0;
+}
+
+.menu ul li i{
+    margin-right: 10px;
+}
