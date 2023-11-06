@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="../cssPrueba/aside.css">
     <script
     src="https://kit.fontawesome.com/c9f5871d83.js"
@@ -14,9 +11,34 @@
     <div class="aside">
         <div class="menu">
             <ul>
-                <li><i class="fa-solid fa-house" style="color: #ffffff;"></i> Inicio</li>
-                <li><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i> Busqueda</li>
+                <a href=""><li><i class="fa-solid fa-house"></i> Inicio</li></a>
+                <a href=""><li><i class="fa-solid fa-magnifying-glass"></i> Busqueda</li></a>
             </ul>
+        </div>
+
+        <div class="biblioteca">
+            <div class="biblioteca-header">
+                <p><i class="fa-regular fa-bookmark"></i> Tu biblioteca</p>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="categoria">
+                <button>Listas</button>
+                <button>Artistas</button>
+                <button>Álbumes</button>
+            </div>
+            <div class="albumes">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <p>Recientes <i class="fa-solid fa-bars"></i></p>
+            </div>
+
+            <div class="tus-albumes">
+                <ul>
+                    <a href=""><li><img src="../img/imgAside/foto-lista1.jfif" alt="">
+                        <div class="dato">
+                        <h1>Los mejores éxitos</h1> <p>Lista-Camavinga</p>
+                    </div></li></a>
+                </ul>
+            </div>
         </div>
     </div>
 </body>
