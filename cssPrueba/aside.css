@@ -4,17 +4,26 @@
     color: white;
 }
 
+a{
+    text-decoration: none;
+}
+
 :root{
     --background-color: linear-gradient(45deg, #000426, #1f001e);
  } 
 
 .aside{
     display: flex;
+    flex-direction: column;
     position: fixed;
     left: 0;
     background-color: rgba(255, 255, 255, 0);
     height: 100vh;
     width: 100%;
+}
+
+.aside i{
+    font-size: 1em;
 }
 
 .menu{
@@ -26,7 +35,8 @@
     width: 90%;
     padding: 1px 10px;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     background-color: rgb(51, 7, 51);
 }
 
@@ -38,8 +48,147 @@
 
 .menu ul li{
     margin:30px 0;
+    color: gray;
+    transition: .5s;
 }
 
 .menu ul li i{
     margin-right: 10px;
+    color: gray;
+    transition: .5s;
 }
+
+.menu ul li:hover{
+    color: white;
+}
+
+.menu ul li:hover i{
+    color: white;
+}
+
+.menu p{
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+.biblioteca{
+    margin: auto;
+    display: flex; 
+    flex-direction: column;
+    justify-content:center; 
+    text-align: left;
+    width: 90%;
+    padding: 1px 10px;
+    border-radius: 10px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    background-color: rgb(51, 7, 51);
+}
+
+.biblioteca{
+    padding: 10px;
+}
+
+.biblioteca p{
+    transition: .5s;
+}
+
+.biblioteca p,i{
+    font-size: 1.3em;
+    color: gray;
+    transition: .5s;
+}
+
+.biblioteca p:hover{
+    color: white;
+}
+
+.biblioteca p:hover i{
+    color: white;
+}
+
+.biblioteca-header{
+    display: flex;
+}
+
+.biblioteca-header .fa-plus{
+    color: gray;
+    transition: 1s;
+    position: absolute;
+    right: 15px;
+    padding: 5px;
+    
+}
+
+.biblioteca-header .fa-plus:hover{
+    color: white;
+    
+}
+
+.categoria{
+    margin-top: 10px;
+}
+
+.categoria button{
+    background-color: rgba(128, 128, 128, 0.412);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    transition: .5s;
+}
+
+.categoria button:hover{
+    background-color: rgba(67, 67, 67, 0.46);
+}
+
+.albumes{
+    margin-top: 10px;
+    display: flex;
+}
+
+.albumes i{
+    transition: .5s;
+}
+
+.albumes i:hover{
+    color: white;
+}
+
+.albumes p{
+    position: absolute;
+    right: 20px;
+    font-size: 1em;
+}
+
+.tus-albumes{
+    margin-top: 20px;
+    
+}
+
+.tus-albumes ul{
+    margin-left: 10px;
+    list-style: none;
+    font-size: .6em;
+}
+
+.tus-albumes ul li{
+    display: flex;
+    border-radius: 10px;
+    padding: 5px;
+    transition: .5s;
+}
+
+.tus-albumes ul li .dato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.tus-albumes ul li:hover{
+    background-color: rgba(0, 0, 0, 0.386);
+}
+
+
+
