@@ -16,11 +16,12 @@ body{
 }
 
 .container{
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 87vh;
     border-radius: 25px;
     background-color: rgb(51, 7, 51);
     padding: 25px;
+    overflow: scroll;
 }
 
 #searchBar{
@@ -85,5 +86,6 @@ h2{
 
 .footer{
     width: 100%;
+    height: 34vh;
     border: none;
 }
