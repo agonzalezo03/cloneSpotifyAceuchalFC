@@ -18,7 +18,7 @@
 .header{
    height: 10vh;
    position: fixed;
-   width: 10vw;
+   width: 20%;
    border: none;
    top: 0;
    padding-top: 10px;
@@ -74,6 +74,8 @@ body{
    flex-direction: column;
    background:linear-gradient( 0deg,  rgb(46, 2, 28), rgb(51, 7, 51));
    border-radius: 25px;
+   height: 94vh;
+   overflow: scroll;
 }
 
 .datos {
@@ -173,7 +175,6 @@ body{
 
 .containerDelIndex{
    display: flex;
-   width: 70%;
    background-color: green;
    padding: 10px;
    border-radius: 15px;
@@ -619,7 +620,7 @@ a{
 
 .header{
    display: flex;
-  width: 100%;
+  width: 60%;
   font-size: 2em;
   margin-top: 10px;
 }
