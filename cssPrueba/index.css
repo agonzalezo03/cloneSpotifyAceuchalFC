@@ -13,7 +13,7 @@
   background: var(--background-color);
  }
  
- .container{
+ .containerDelIndex{
     display: flex;
     width: 70%;
     background-color: green;
