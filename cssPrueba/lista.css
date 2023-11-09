@@ -20,6 +20,19 @@ body{
     border: none;
 }
 
+.header{
+    height: 10vh;
+    position: fixed;
+    width: 73%;
+    border: none;
+    top: 0;
+    padding-top: 10px;
+}
+
+.header-scrolled{
+    background-color: rgba(0, 0, 0, 0.411);
+}
+
 .container{
     display: flex;
     flex-direction: column;
