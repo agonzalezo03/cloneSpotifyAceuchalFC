@@ -71,15 +71,6 @@ body{
 
 /*LISTA*/
 
-.container-lista{
-   display: flex;
-   flex-direction: column;
-   background:linear-gradient( 0deg,  rgb(46, 2, 28), rgb(51, 7, 51));
-   border-radius: 25px;
-   height: 88.5vh;
-   overflow: scroll;
-   width: 70%;
-}
 
 .datos {
    padding: 50px;
@@ -626,19 +617,12 @@ a{
 
 .header{
    display: flex;
-  width: 67%;
+  width: 65%;
   font-size: 2em;
   margin-top: 10px;
 }
 
-.header div i{
-   margin: 0 5px;
-   transition: .5s;
-}
 
-.header div i:hover{
-   color: white;
-}
 
 .header .cuenta{
    position: absolute;
