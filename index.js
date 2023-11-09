@@ -1,6 +1,6 @@
 // Obtén una referencia al elemento del encabezado
 var header = document.getElementById("header");
-var containerDelIndex = document.querySelector(".containerDelIndex");
+var containerDelIndex = document.querySelector(".container");
 
 // Asigna una función al evento de desplazamiento en el contenedor específico
 containerDelIndex.addEventListener("scroll", function() {
