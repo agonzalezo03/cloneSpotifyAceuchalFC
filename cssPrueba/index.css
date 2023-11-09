@@ -6,10 +6,18 @@
 :root{
     --background-color: linear-gradient(45deg, #000426, #1f001e);
  } 
+
+ body{
+  display: flex;
+  padding: 20px;
+  background: var(--background-color);
+ }
  
  .container{
-    background: var(--background-color);
     display: flex;
+    width: 70%;
+    background-color: green;
+    padding: 10px;
  }
 
  .containerInicio h1, h3{
@@ -17,7 +25,10 @@
     display: flex;
     align-items: center;
     color: white;
-    width: 90vw;
+ }
+
+ .containerInicio h1{
+  margin: 10px 0px;
  }
 
  .containerInicio h3{
@@ -27,29 +38,31 @@
  .tituloApartado{
    display: flex;
    margin-bottom: 10px;
+   justify-content: space-between;
  }
 
 .elementos{
-   width: 100vw;
+   display: flex;
+   gap: 10px;
 }
 
  .elemento{
    display: flex;
    flex-direction: column;
-   width: 20%;
+   width: 40%;
    height: 80%;
-   
    padding-top: 2%;
    padding-bottom: 2%;
    background-color: black;
-   margin-left: 2%;
    margin-bottom: 2%;
    border-radius: 2%;
    transition: 0.3s linear;
+   cursor: pointer;
  }
 
  .elemento:hover{
    background-color: aqua;
+   transform: scale(1.02);
  }
 
 .elemento img{
@@ -91,4 +104,9 @@
  .elemento:hover .fa-play{
    transform:translateY(-20px);
    opacity: 1;
+ }
+
+ .sidebar{
+  width: 30%;
+  border: none;
  }
