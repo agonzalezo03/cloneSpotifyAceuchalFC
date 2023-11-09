@@ -1,0 +1,126 @@
+body {
+    overflow-x: hidden;
+    width: 100vw;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --background-color: linear-gradient(45deg, #000426, #1f001e);
+    --porcentaje: 2%;
+}
+
+.container {
+    background: var(--background-color);
+    display: flex;
+    width: 100vw;
+}
+
+.contenido h1,
+h3 {
+    margin-left: 1%;
+    margin-top:1%;
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 90vw;
+}
+
+.contenido h3 {
+    color: grey;
+}
+
+.categoria {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.podcasts {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: var(--porcentaje);
+}
+
+.podcast {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 80%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: black;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    border-radius: 2%;
+    transition: 0.3s linear;
+}
+
+.podcast:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.podcast img {
+    width: 80%;
+    height: 50%;
+    text-align: center;
+    margin: auto;
+    border-radius: 2%;
+}
+
+.titulo-podcast {
+    color: white;
+    padding: 3%;
+    font-size: 120%;
+    padding-left: 11%;
+}
+
+.subtitulo-podcast {
+    color: grey;
+    margin-left: 2%;
+    width: 80%;
+    padding-left: 10%;
+}
+
+.texto-podcast {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.contenido h1:hover,
+.contenido h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    /* Ancho de la barra de desplazamiento */
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #a957ec;
+    /* Color del control deslizante */
+    border-radius: 5px;
+    /* Borde redondeado del control deslizante */
+}
+
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Color del track */
+}
+
+
+::-webkit-scrollbar-button {
+    display: none;
+    /* Ocultar los botones de flecha */
+}
