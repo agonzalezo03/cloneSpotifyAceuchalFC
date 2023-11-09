@@ -33,7 +33,7 @@ body{
     background-color: rgba(0, 0, 0, 0.411);
 }
 
-.container{
+.container-lista{
     display: flex;
     flex-direction: column;
     background:linear-gradient( 0deg,  rgb(46, 2, 28), rgb(51, 7, 51));

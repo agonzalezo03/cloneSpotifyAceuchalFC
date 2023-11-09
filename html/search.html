@@ -3,19 +3,24 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../cssPrueba/search.css">
+        <link rel="stylesheet" href="../style.css">
+        <script src="../index.js"></script>
         <title>Search</title>
     </head>
     <body>
         <iframe src="../inc/aside.html" class="sidebar"></iframe>
+        
         <div class="container-search">
+            <iframe src="../inc/header.html" id="header" class="header"></iframe>
             <input type="text" placeholder="¿Qué te apetece escuchar hoy?" id="searchBar">
             <h2>Explorar todo</h2>
             <div class="explore">
+                <a href="./podcast.html">
                 <div class="card" style="background-color: darkcyan;">
                     <h3 class="title">Pódcast</h3>
                     <img src="../img/search/podcast.jpeg" alt="podcast" class="img">
                 </div>
+            </a>
                 <div class="card" style="background-color: crimson;">
                     <h3 class="title">Especialmente para ti</h3>
                     <img src="../img/search/popMix.png" alt="podcast" class="img">
